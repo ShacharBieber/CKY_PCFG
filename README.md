@@ -8,10 +8,10 @@ For each sentence, the code will print its most probable grammatical tree and it
 2. Run the script in a Python environment:
    
    ```bash
-   python weaver_solver.py -s <source_word> -t <target_word> -l <word_length> -p <custom_dict_path>
-4. About the parameters:
-    - **-g (--grammar)**: a string representing a path to a file containing grammatical rules. Assuming valid input.
-    - **-s (--sentences)**: a string representing a path to a file containing (hopefully) grammatical sentences, separated by newlines.
+   python sky.py -g <prammar_path> -s <sentences_path> 
+3. About the parameters:
+    - **-g (--grammar)**: a string representing a path to a file containing grammatical rules. Assuming valid input. An example is provided with the repo (grammar.txt)
+    - **-s (--sentences)**: a string representing a path to a file containing (hopefully) grammatical sentences, separated by newlines. An example is provided in the repo (sentences.txt)
 
    
 ## Requirements
